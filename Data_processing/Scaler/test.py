@@ -7,7 +7,7 @@ import numpy as np
 
 class ScalerTest(unittest.TestCase):
     def test_minmax(self):
-        data = data = [[-1, 2], [-0.5, 6], [0, 10], [1, 18]]
+        data = [[-1, 2], [-0.5, 6], [0, 10], [1, 18]]
         standard = Scaler(scheme='minmax')
         self.assertEqual(standard.fit_transform(data).tolist(), 
                 np.array([[0., 0.], [0.25, 0.25], 

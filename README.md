@@ -7,6 +7,8 @@ A codebase to implement basic ML algorthims from scratch. Feel free to add your 
 - [x] MinMax Scaler
 - [x] Standard Scaler
 - [ ] PCA
+- [ ] Imputer
+- [ ] Kernel PCA
  
 
 ### ALgorithms
