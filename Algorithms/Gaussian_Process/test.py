@@ -31,10 +31,18 @@ class LinRegTest(unittest.TestCase):
                 train_size=0.8, random_state=42)
         gpr = GPRegressor(Kernel(1.0, 1.0))
         gpr.fit(Xt, yt)
+        mt, st = gpr.predict(Xt)
+        mtt, stt = gpr.predict(Xtt)
         gprsk = GaussianProcessRegressor(RBF(1.0, 'fixed'), alpha=0)
         gprsk.fit(Xt, yt)
-        np.testing.assert_allclose(gpr.predict(Xt), gprsk.predict(Xt))
-        np.testing.assert_allclose(gpr.predict(Xtt), gprsk.predict(Xtt))
+        mtsk, stsk = gprsk.predict(Xt, return_std=True)
+        mttsk, sttsk = gprsk.predict(Xtt, return_std=True)
+        np.testing.assert_allclose(mt, mtsk, atol=1e-3, rtol=1e-3)
+        np.testing.assert_allclose(mtt, mttsk, atol=1e-3, rtol=1e-3)
+        np.testing.assert_allclose(st, stsk, 
+                atol=1e-3, rtol=1e-3, equal_nan=True)
+        np.testing.assert_allclose(stt, sttsk, 
+                atol=1e-3, rtol=1e-3, equal_nan=True)
         np.testing.assert_allclose(gpr.lml, 
                 gprsk.log_marginal_likelihood_value_)
 

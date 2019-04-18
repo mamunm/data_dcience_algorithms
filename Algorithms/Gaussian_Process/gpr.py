@@ -2,7 +2,8 @@
 # -*-coding: utf-8 -*-
 
 import numpy as np
-from scipy.linalg import cho_factor, cho_solve
+from scipy.linalg import (cholesky, cho_factor, 
+        cho_solve, solve_triangular)
 
 class GPRegressor:
     '''An object to perform gaussian process regression on data.'''
@@ -25,9 +26,15 @@ class GPRegressor:
 
     def predict(self, X):
         self.mu = np.dot(self.kernel(X, self.X_train), self.a)
-        #self.sigma = self.kernel(X, X) - np.matmul(np.linalg.inv(
-        #    self.kernel(self.X_train)), self.kernel(self.X_train, X))
-        return self.mu #self.sigma
+        other = np.matmul(np.linalg.inv(self.kernel(self.X_train)), 
+                self.kernel(self.X_train, X))
+        other = np.matmul(self.kernel(X, self.X_train), other)
+        self.sigma = np.sqrt(np.diagonal(self.kernel(X) - other))
+        #LL = cholesky(self.kernel(self.X_train), lower=True)
+        #v = cho_solve((LL, True), self.kernel(X, self.X_train).T)  
+        #y_cov = self.kernel(X) - self.kernel(X, self.X_train).dot(v)
+        #self.sigma = np.diagonal(y_cov)
+        return self.mu, self.sigma
 
     def lml(self, X, y):
         pass
@@ -70,14 +77,12 @@ if __name__ == "__main__":
     gpr = GPRegressor(Kernel(1.0, 1.0))
     gpr.fit(Xt, yt)
     gprsk = GaussianProcessRegressor(RBF(1.0, 'fixed'), alpha=0)
-    print(gpr.predict(Xtt))
-    print(gpr.predict(Xt))
-    print(gpr.lml)
     gprsk.fit(Xt, yt)
-    print(gprsk.predict(Xtt))
-    print(gprsk.predict(Xt))
-    print(gprsk.log_marginal_likelihood_value_)
-
-            
+    stt = gpr.predict(Xtt)[1]
+    sttsk = gprsk.predict(Xtt, return_std=True)[1]
+    for a, b in zip(stt, sttsk):
+        if (a-b) > 1e-5:
+            print(a, b)
+    print(np.allclose(stt, sttsk, atol=1e-4, rtol=1e-4))
 
 
