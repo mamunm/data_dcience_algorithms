@@ -1,0 +1,5 @@
+expensive_function took 42.968156814575195 seconds to execute.
+-3262.79176712
+expensive_function took 70.07957196235657 seconds to execute.
+-1717.30514358
+-3262.79176712

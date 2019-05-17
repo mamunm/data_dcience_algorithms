@@ -1,0 +1,53 @@
+&CONTROL
+   calculation      = 'scf'
+   tprnfor          = .true.
+   outdir           = '.'
+   prefix           = 'calc'
+   etot_conv_thr    = 1000000000000.0
+   forc_conv_thr    = 0.001944690541899273
+   pseudo_dir       = '/Users/osmanmamun/Suncat_Code_Base/decaf-espresso/gbrv15pbe'
+/
+&SYSTEM
+   ibrav            = 0
+   ecutwfc          = 36.74932539044713
+   nosym            = .true.
+   occupations      = 'smearing'
+   degauss          = 0.0007349865078089427
+   smearing         = 'mp'
+   input_dft        = 'PBE'
+   ntyp             = 3
+   nat              = 10
+/
+&ELECTRONS
+   conv_thr         = 0.007349865078089427
+   mixing_beta      = 0.3
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Pt 195.084 Pt.UPF
+O 15.999 O.UPF
+H 1.008 H.UPF
+
+K_POINTS gamma
+
+CELL_PARAMETERS angstrom
+5.58733812191754 0.00000000000000 0.00000000000000
+2.79366906095877 4.83877675311382 0.00000000000000
+0.00000000000000 0.00000000000000 24.56204247303281
+
+ATOMIC_POSITIONS angstrom
+Pt 2.7936690610 1.6129255844 12.2810212365  0 0 0
+Pt 5.5873381219 1.6129255844 12.2810212365  0 0 0
+Pt 4.1905035914 4.0323139609 12.2810212365  0 0 0
+Pt 6.9841726524 4.0323139609 12.2810212365  0 0 0
+Pt 0.0000000000 0.0000000000 14.5620424730 
+Pt 2.7936690610 0.0000000000 14.5620424730 
+Pt 1.3968345305 2.4193883766 14.5620424730 
+Pt 4.1905035914 2.4193883766 14.5620424730 
+O 2.7936690610 1.6129255844 15.7781308988 
+H 2.7936690610 1.6129255844 16.7481308988 
+
