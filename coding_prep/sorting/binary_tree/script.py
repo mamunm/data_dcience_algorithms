@@ -41,6 +41,32 @@ class Node:
                 else:
                     return self.left.search(val)
 
+
+def print_tree(tree):
+    if tree.left == None and tree.right == None:
+        print('Node(val = {}, left=None, right=None)'.format(tree.val))
+    if tree.right != None and tree.left == None:
+        print('Node(val = {}, left = None, right={})'.format(tree.val, 
+            tree.right.val))
+        print_tree(tree.right)
+    if tree.left != None and tree.right == None:
+        print('Node(val = {}, left = {}, right=None)'.format(tree.val, 
+            tree.left.val))
+        print_tree(tree.left)
+    if tree.left != None and tree.right != None:
+        print('Node(val = {}, left = {}, right={})'.format(tree.val, 
+            tree.left.val, tree.right.val))
+        print_tree(tree.left)
+        print_tree(tree.right)
+
+
+def tree_height(tree):
+    if tree == None:
+        return 0
+    if tree.left == None and tree.right == None:
+        return 1
+    return max(tree_height(tree.left), tree_height(tree.right)) + 1
+
 r = Node(30)
 r.insert(20)
 r.insert(10)
@@ -52,5 +78,8 @@ r.insert(5)
 
 print(r.search(8))
 print(r.search(4))
+print('Height of the tree: {}'.format(tree_height(r)))
+print('\n')
+print_tree(r)
     
 
