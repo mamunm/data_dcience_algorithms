@@ -23,7 +23,7 @@ class LinkedList:
     def print_list(self):
         out = []
         cur_node = self.head
-        while cur_node.next is not None:
+        while cur_node.next != None:
             out += [cur_node.val]
             cur_node = cur_node.next
         out += [cur_node.val]
