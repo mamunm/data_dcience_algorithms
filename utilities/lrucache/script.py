@@ -27,8 +27,8 @@ parameters = {'calculation': 'scf',
               'tprnfor': True,
               'tstress': True}
 
-@lru_cache(maxsize=32)
 @timed
+@lru_cache(maxsize=32)
 def expensive_function(n):
     if os.path.exists('pw.pwi'):
         os.remove('pw.pwi')
@@ -49,8 +49,8 @@ def expensive_function(n):
     return energy
 
 if __name__ == "__main__":
-    print(expensive_function(75))
-    print(expensive_function(55))
-    print(expensive_function(75))
+    print('Computed energy: {}'.format(expensive_function(75)))
+    print('Computed energy: {}'.format(expensive_function(55)))
+    print('Computed energy: {}'.format(expensive_function(75)))
 
 

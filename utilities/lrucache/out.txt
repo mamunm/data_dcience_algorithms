@@ -1,5 +1,6 @@
-expensive_function took 42.968156814575195 seconds to execute.
--3262.79176712
-expensive_function took 70.07957196235657 seconds to execute.
--1717.30514358
--3262.79176712
+expensive_function took 35.81632995605469 seconds to execute.
+Computed energy: -3262.79176712
+expensive_function took 59.255948066711426 seconds to execute.
+Computed energy: -1717.30514358
+expensive_function took 1.1920928955078125e-06 seconds to execute.
+Computed energy: -3262.79176712

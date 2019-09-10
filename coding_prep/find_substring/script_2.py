@@ -10,8 +10,8 @@ def get_long(A):
     A = [ord(i) for i in A]
     g = [list(v) for k, v in groupby(enumerate(A), key=lambda i: i[0]-i[1])]
     g = max(g, key=len)
-    return ''.join([chr(i[1]) for i in g])
-
+    #return ''.join([chr(i[1]) for i in g])
+    return [chr(i[1]) for i in g]
 
 if __name__ == '__main__':
-    print(get_long('abcmnopqrxyz'))
+    print(get_long(['a', 'b', 'a', 'b', 'c']))

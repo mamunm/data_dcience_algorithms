@@ -2,7 +2,7 @@ python dir    : /Users/osmanmamun/Suncat_Code_Base/decaf-espresso/decaf
 espresso dir  : /Users/osmanmamun/src/QE/qe-6.3/bin/pw.x
 executable    : pw.x -in pw.pwi
 
-     Program PWSCF v.6.3 starts on 17May2019 at 12:51:48 
+     Program PWSCF v.6.3 starts on 10Sep2019 at  0: 0:56 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -145,7 +145,7 @@ Warning: card / ignored
      negative rho (up, down):  1.543E+00 0.000E+00
      Starting wfcs are  101 randomized atomic wfcs
 
-     total cpu time spent up to now is        1.9 secs
+     total cpu time spent up to now is        1.8 secs
 
      Self-consistent Calculation
 
@@ -155,7 +155,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.450E+00 0.000E+00
 
-     total cpu time spent up to now is        4.4 secs
+     total cpu time spent up to now is        3.9 secs
 
      total energy              =   -1698.98422761 Ry
      Harris-Foulkes estimate   =   -1720.61196987 Ry
@@ -167,7 +167,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.441E+00 0.000E+00
 
-     total cpu time spent up to now is        6.6 secs
+     total cpu time spent up to now is        6.0 secs
 
      total energy              =   -1704.91174982 Ry
      Harris-Foulkes estimate   =   -1730.31349388 Ry
@@ -179,7 +179,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.438E+00 0.000E+00
 
-     total cpu time spent up to now is        8.6 secs
+     total cpu time spent up to now is        7.9 secs
 
      total energy              =   -1714.22352494 Ry
      Harris-Foulkes estimate   =   -1724.08103380 Ry
@@ -191,7 +191,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.442E+00 0.000E+00
 
-     total cpu time spent up to now is       10.5 secs
+     total cpu time spent up to now is        9.8 secs
 
      total energy              =   -1717.74463270 Ry
      Harris-Foulkes estimate   =   -1718.69042820 Ry
@@ -203,7 +203,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.443E+00 0.000E+00
 
-     total cpu time spent up to now is       12.2 secs
+     total cpu time spent up to now is       11.5 secs
 
      total energy              =   -1717.50176231 Ry
      Harris-Foulkes estimate   =   -1718.21931548 Ry
@@ -215,7 +215,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.442E+00 0.000E+00
 
-     total cpu time spent up to now is       13.9 secs
+     total cpu time spent up to now is       13.1 secs
 
      total energy              =   -1717.66956344 Ry
      Harris-Foulkes estimate   =   -1717.86465958 Ry
@@ -227,7 +227,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.442E+00 0.000E+00
 
-     total cpu time spent up to now is       16.5 secs
+     total cpu time spent up to now is       14.7 secs
 
      total energy              =   -1717.57356802 Ry
      Harris-Foulkes estimate   =   -1717.71421648 Ry
@@ -239,7 +239,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.439E+00 0.000E+00
 
-     total cpu time spent up to now is       18.8 secs
+     total cpu time spent up to now is       16.4 secs
 
      total energy              =   -1717.44703791 Ry
      Harris-Foulkes estimate   =   -1717.66148299 Ry
@@ -251,7 +251,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.439E+00 0.000E+00
 
-     total cpu time spent up to now is       21.2 secs
+     total cpu time spent up to now is       18.1 secs
 
      total energy              =   -1717.49522011 Ry
      Harris-Foulkes estimate   =   -1717.50666831 Ry
@@ -263,7 +263,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.432E+00 0.000E+00
 
-     total cpu time spent up to now is       23.6 secs
+     total cpu time spent up to now is       19.7 secs
 
      total energy              =   -1717.32960952 Ry
      Harris-Foulkes estimate   =   -1717.49574127 Ry
@@ -275,7 +275,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.430E+00 0.000E+00
 
-     total cpu time spent up to now is       26.4 secs
+     total cpu time spent up to now is       21.5 secs
 
      total energy              =   -1717.31473611 Ry
      Harris-Foulkes estimate   =   -1717.39252164 Ry
@@ -287,7 +287,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.429E+00 0.000E+00
 
-     total cpu time spent up to now is       28.2 secs
+     total cpu time spent up to now is       23.1 secs
 
      total energy              =   -1717.31319255 Ry
      Harris-Foulkes estimate   =   -1717.34546539 Ry
@@ -299,7 +299,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.429E+00 0.000E+00
 
-     total cpu time spent up to now is       30.1 secs
+     total cpu time spent up to now is       24.7 secs
 
      total energy              =   -1717.30795746 Ry
      Harris-Foulkes estimate   =   -1717.33932661 Ry
@@ -311,7 +311,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.427E+00 0.000E+00
 
-     total cpu time spent up to now is       32.1 secs
+     total cpu time spent up to now is       26.4 secs
 
      total energy              =   -1717.29321051 Ry
      Harris-Foulkes estimate   =   -1717.33148076 Ry
@@ -323,7 +323,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.426E+00 0.000E+00
 
-     total cpu time spent up to now is       34.2 secs
+     total cpu time spent up to now is       28.4 secs
 
      total energy              =   -1717.29702897 Ry
      Harris-Foulkes estimate   =   -1717.32204147 Ry
@@ -335,7 +335,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       36.1 secs
+     total cpu time spent up to now is       30.1 secs
 
      total energy              =   -1717.30354871 Ry
      Harris-Foulkes estimate   =   -1717.31978335 Ry
@@ -347,7 +347,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.426E+00 0.000E+00
 
-     total cpu time spent up to now is       37.9 secs
+     total cpu time spent up to now is       31.7 secs
 
      total energy              =   -1717.30369089 Ry
      Harris-Foulkes estimate   =   -1717.31118784 Ry
@@ -359,7 +359,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.426E+00 0.000E+00
 
-     total cpu time spent up to now is       39.7 secs
+     total cpu time spent up to now is       33.4 secs
 
      total energy              =   -1717.30436303 Ry
      Harris-Foulkes estimate   =   -1717.30952214 Ry
@@ -371,7 +371,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.426E+00 0.000E+00
 
-     total cpu time spent up to now is       41.5 secs
+     total cpu time spent up to now is       35.1 secs
 
      total energy              =   -1717.30400862 Ry
      Harris-Foulkes estimate   =   -1717.30835747 Ry
@@ -383,7 +383,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       43.2 secs
+     total cpu time spent up to now is       36.9 secs
 
      total energy              =   -1717.30363597 Ry
      Harris-Foulkes estimate   =   -1717.30882338 Ry
@@ -395,7 +395,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       45.7 secs
+     total cpu time spent up to now is       38.6 secs
 
      total energy              =   -1717.30504839 Ry
      Harris-Foulkes estimate   =   -1717.31061589 Ry
@@ -407,7 +407,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       47.7 secs
+     total cpu time spent up to now is       40.2 secs
 
      total energy              =   -1717.30469908 Ry
      Harris-Foulkes estimate   =   -1717.30720644 Ry
@@ -419,7 +419,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       49.5 secs
+     total cpu time spent up to now is       41.9 secs
 
      total energy              =   -1717.30536113 Ry
      Harris-Foulkes estimate   =   -1717.30659355 Ry
@@ -431,7 +431,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       51.4 secs
+     total cpu time spent up to now is       43.5 secs
 
      total energy              =   -1717.30490585 Ry
      Harris-Foulkes estimate   =   -1717.30708286 Ry
@@ -443,7 +443,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       54.0 secs
+     total cpu time spent up to now is       45.1 secs
 
      total energy              =   -1717.30586227 Ry
      Harris-Foulkes estimate   =   -1717.30630180 Ry
@@ -455,7 +455,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       56.0 secs
+     total cpu time spent up to now is       46.8 secs
 
      total energy              =   -1717.30589405 Ry
      Harris-Foulkes estimate   =   -1717.30620271 Ry
@@ -467,7 +467,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       58.0 secs
+     total cpu time spent up to now is       48.5 secs
 
      total energy              =   -1717.30576102 Ry
      Harris-Foulkes estimate   =   -1717.30637051 Ry
@@ -479,7 +479,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       59.8 secs
+     total cpu time spent up to now is       50.2 secs
 
      total energy              =   -1717.30602423 Ry
      Harris-Foulkes estimate   =   -1717.30616187 Ry
@@ -491,7 +491,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       61.9 secs
+     total cpu time spent up to now is       51.9 secs
 
      total energy              =   -1717.30577504 Ry
      Harris-Foulkes estimate   =   -1717.30647719 Ry
@@ -503,7 +503,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       63.7 secs
+     total cpu time spent up to now is       53.5 secs
 
      total energy              =   -1717.30600094 Ry
      Harris-Foulkes estimate   =   -1717.30620582 Ry
@@ -515,7 +515,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       65.5 secs
+     total cpu time spent up to now is       55.2 secs
 
      total energy              =   -1717.30590051 Ry
      Harris-Foulkes estimate   =   -1717.30626332 Ry
@@ -527,7 +527,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.425E+00 0.000E+00
 
-     total cpu time spent up to now is       67.3 secs
+     total cpu time spent up to now is       56.8 secs
 
      total energy              =   -1717.30602952 Ry
      Harris-Foulkes estimate   =   -1717.30618744 Ry
@@ -539,7 +539,7 @@ Warning: card / ignored
 
      negative rho (up, down):  1.427E+00 0.000E+00
 
-     total cpu time spent up to now is       69.0 secs
+     total cpu time spent up to now is       58.4 secs
 
      End of self-consistent calculation
 
@@ -593,53 +593,53 @@ Warning: card / ignored
 
      Writing output data file calc.save/
 
-     init_run     :      1.72s CPU      1.84s WALL (       1 calls)
-     electrons    :     60.18s CPU     67.14s WALL (       1 calls)
-     forces       :      0.84s CPU      0.90s WALL (       1 calls)
+     init_run     :      1.62s CPU      1.69s WALL (       1 calls)
+     electrons    :     54.84s CPU     56.60s WALL (       1 calls)
+     forces       :      0.77s CPU      0.80s WALL (       1 calls)
 
      Called by init_run:
-     wfcinit      :      0.51s CPU      0.51s WALL (       1 calls)
-     potinit      :      0.29s CPU      0.31s WALL (       1 calls)
-     hinit0       :      0.67s CPU      0.68s WALL (       1 calls)
+     wfcinit      :      0.47s CPU      0.45s WALL (       1 calls)
+     potinit      :      0.28s CPU      0.29s WALL (       1 calls)
+     hinit0       :      0.66s CPU      0.67s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :     31.79s CPU     31.14s WALL (      33 calls)
-     sum_band     :     15.55s CPU     18.78s WALL (      33 calls)
-     v_of_rho     :      4.87s CPU      5.85s WALL (      34 calls)
-     newd         :      7.60s CPU     10.63s WALL (      34 calls)
-     mix_rho      :      0.66s CPU      1.11s WALL (      33 calls)
+     c_bands      :     28.58s CPU     26.86s WALL (      33 calls)
+     sum_band     :     14.57s CPU     15.65s WALL (      33 calls)
+     v_of_rho     :      4.51s CPU      4.80s WALL (      34 calls)
+     newd         :      6.84s CPU      8.68s WALL (      34 calls)
+     mix_rho      :      0.59s CPU      0.91s WALL (      33 calls)
 
      Called by c_bands:
-     init_us_2    :      0.33s CPU      0.35s WALL (      67 calls)
-     regterg      :     30.11s CPU     29.36s WALL (      33 calls)
+     init_us_2    :      0.30s CPU      0.31s WALL (      67 calls)
+     regterg      :     26.94s CPU     25.20s WALL (      33 calls)
 
      Called by sum_band:
      sum_band:bec :      0.00s CPU      0.00s WALL (      33 calls)
-     addusdens    :      9.51s CPU     12.37s WALL (      33 calls)
+     addusdens    :      9.01s CPU     10.05s WALL (      33 calls)
 
      Called by *egterg:
-     h_psi        :     23.00s CPU     22.95s WALL (     106 calls)
-     s_psi        :      1.43s CPU      0.51s WALL (     106 calls)
-     g_psi        :      0.10s CPU      0.11s WALL (      72 calls)
-     rdiaghg      :      1.10s CPU      0.91s WALL (     105 calls)
+     h_psi        :     20.73s CPU     19.86s WALL (     106 calls)
+     s_psi        :      1.37s CPU      0.44s WALL (     106 calls)
+     g_psi        :      0.10s CPU      0.10s WALL (      72 calls)
+     rdiaghg      :      0.73s CPU      0.73s WALL (     105 calls)
 
      Called by h_psi:
-     h_psi:pot    :     22.90s CPU     22.85s WALL (     106 calls)
-     h_psi:calbec :      0.94s CPU      0.92s WALL (     106 calls)
-     vloc_psi     :     20.50s CPU     21.39s WALL (     106 calls)
-     add_vuspsi   :      1.46s CPU      0.53s WALL (     106 calls)
+     h_psi:pot    :     20.64s CPU     19.77s WALL (     106 calls)
+     h_psi:calbec :      0.86s CPU      0.81s WALL (     106 calls)
+     vloc_psi     :     18.41s CPU     18.52s WALL (     106 calls)
+     add_vuspsi   :      1.36s CPU      0.45s WALL (     106 calls)
 
      General routines
-     calbec       :      1.39s CPU      1.39s WALL (     143 calls)
-     fft          :      1.88s CPU      2.12s WALL (     316 calls)
-     ffts         :      0.20s CPU      0.21s WALL (      33 calls)
-     fftw         :     22.33s CPU     23.34s WALL (    7175 calls)
+     calbec       :      1.28s CPU      1.23s WALL (     143 calls)
+     fft          :      1.68s CPU      1.70s WALL (     316 calls)
+     ffts         :      0.18s CPU      0.19s WALL (      33 calls)
+     fftw         :     20.10s CPU     20.21s WALL (    7175 calls)
 
 
-     PWSCF        :  1m 2.82s CPU     1m10.01s WALL
+     PWSCF        :    57.31s CPU        59.21s WALL
 
 
-   This run was terminated on:  12:52:58  17May2019            
+   This run was terminated on:   0: 1:56  10Sep2019            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
