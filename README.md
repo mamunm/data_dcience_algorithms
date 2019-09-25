@@ -1,4 +1,4 @@
-# data_dcience_algorithms
+# data_science_algorithms
 A codebase to implement basic ML algorthims from scratch. Feel free to add your suggestions to the TODO lists.
 
 ## TODO lists
