@@ -13,10 +13,13 @@ print('Wait {} seconds to press the next Enter'.format(ttime))
 input('-' * 20 + 'Press Enter to Begin' + '-' * 20)
 etime = time.perf_counter() - stime
 
-if etime == ttime:
+if abs(etime - ttime) <= 0.1:
     print('Unbelievable! You got it right!')
+elif etime < ttime:
+    print('You are {} seconds too fast :('.format(abs(etime-ttime)))
+    print('Better luck next time!')
 else:
-    print('You are off by {} seconds :('.format(abs(etime-ttime)))
+    print('You are {} seconds too slow :('.format(abs(etime-ttime)))
     print('Better luck next time!')
 
 
