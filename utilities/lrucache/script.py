@@ -2,8 +2,6 @@
 # -*-coding: utf-8 -*-
 
 from functools import lru_cache, wraps
-from ase.calculators.emt import EMT
-import btoms
 import os
 from ase.io import read
 from ase.db import connect

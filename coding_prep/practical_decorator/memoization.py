@@ -21,6 +21,7 @@ def memoize(func):
         return cache[args]
     return wrapper
 
+@timed
 @memoize
 def fibonacci(n):
     if n < 2:
@@ -29,8 +30,5 @@ def fibonacci(n):
         return n * fibonacci(n-1)
 
 
-print(fibonacci(20))
-print(fibonacci(10))
-print(fibonacci(5))
-print(fibonacci(20))
-print(fibonacci(10))
+print('Fibonacci number for n = 20 is {}.'.format(fibonacci(20)))
+print('Fibonacci number for n = 10 is {}.'.format(fibonacci(20)))
